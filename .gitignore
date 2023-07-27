@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing
+test-reports/
+
+# IDE
+.idea/
+.vscode/
+
+# Dependency directories
+venv/
+env/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Documentation
+docs/
+
+# Build files
+build/
+dist/
+
+# Environment
+.env
+.env.*
+
+# Ignore generated files
+*.egg-info/
+*.egg
+*.egg-info
+
+# Ignore pipenv virtual environment
+.pipenv/
+
+# Ignore poetry virtual environment
+.poetry/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore PyCharm files
+*.iml
+.idea/
+*.ipr
+*.iws
+*.bak
+*.swp
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Testing
+test-reports/
+
+# IDE
+.idea/
+.vscode/
+
+# Dependency directories
+venv/
+env/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db

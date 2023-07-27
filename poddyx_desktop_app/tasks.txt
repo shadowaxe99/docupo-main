@@ -1,0 +1,4 @@
+- Task 1: Complete documentation
+- Task 2: Implement user authentication
+- Task 3: Bug fixed in podcast player
+- Task 4: Improve UI/UX design

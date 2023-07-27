@@ -1,0 +1,25 @@
+Project: AI Agent Factory
+
+Tasks Completed:
+- Created ride_project directory and ride.py file
+- Updated ride.py with a basic function
+- Created e2b directory and structures.py file
+- Updated structures.py with a basic function
+
+Files to Look At:
+- ride_project/ride.py: Contains the ride function
+- e2b/structures.py: Contains the structures function
+- e2b/main.py: Contains the main file
+
+Key Folders:
+- ride_project: Contains the ride.py file
+- e2b: Contains the structures.py file
+- superagent: Contains the superagent.py file
+
+Dependencies:
+- Python 3: Used to run the .py files
+
+Next Steps:
+- Define the data structure for tasks in the Task Manager
+- Implement functionality to create, update, and track tasks within the Task Manager
+- Start creating a basic Task Manager class and write unit tests to ensure its functionality
