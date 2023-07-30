@@ -1,8 +1,8 @@
-```python
 from github import Github
 from os import getenv
 
 GITHUB_API_KEY = getenv("GITHUB_API_KEY")
+
 
 class GithubIntegration:
     def __init__(self):
@@ -24,5 +24,5 @@ class GithubIntegration:
         for file_path in repo_structure:
             self.commit_and_push(repo, file_path, "Initial commit")
 
+
 github_integration = GithubIntegration()
-```

@@ -1,4 +1,3 @@
-```python
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -27,4 +26,3 @@ def notify(message_key):
 
 if __name__ == '__main__':
     app.run(debug=True)
-```

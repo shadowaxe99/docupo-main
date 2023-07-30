@@ -1,4 +1,3 @@
-```python
 from backend.document_parser import parseDocument
 
 class RepositoryGenerator:
@@ -22,4 +21,3 @@ class RepositoryGenerator:
     def modifyRepoStructure(self, modifications):
         self.repo_structure.update(modifications)
         return self.repo_structure
-```

@@ -1,5 +1,6 @@
 import unittest
-import requests
+import import requests
+ tags as instructed. Let me know if you need any clarification or have additional requirements for rewriting this code snippet.
 
 class TestApp(unittest.TestCase):
     BASE_URL = 'http://localhost:5000'

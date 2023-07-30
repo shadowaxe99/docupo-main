@@ -1,8 +1,8 @@
-```python
 import PyPDF2
 from docx import Document
 
 DOCUMENT_FORMATS = ['pdf', 'docx', 'txt']
+
 
 def parseDocument(file_path):
     file_extension = file_path.split('.')[-1]
@@ -17,6 +17,7 @@ def parseDocument(file_path):
     elif file_extension == 'txt':
         return parseTXT(file_path)
 
+
 def parsePDF(file_path):
     pdf_file_obj = open(file_path, 'rb')
     pdf_reader = PyPDF2.PdfFileReader(pdf_file_obj)
@@ -30,13 +31,14 @@ def parsePDF(file_path):
     pdf_file_obj.close()
     return document_content
 
+
 def parseDOCX(file_path):
     doc = Document(file_path)
     document_content = '\n'.join([paragraph.text for paragraph in doc.paragraphs])
     return document_content
 
+
 def parseTXT(file_path):
     with open(file_path, 'r') as file:
         document_content = file.read()
     return document_content
-```
