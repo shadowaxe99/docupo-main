@@ -1,4 +1,3 @@
-```javascript
 import React, { useState, useEffect } from 'react';
 
 const Notification = () => {
@@ -24,4 +23,3 @@ const Notification = () => {
 };
 
 export default Notification;
-```

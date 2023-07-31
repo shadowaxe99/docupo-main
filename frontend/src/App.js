@@ -1,4 +1,4 @@
-```javascript
+
 import React from 'react';
 import UploadDocument from './UploadDocument';
 import ReviewRepository from './ReviewRepository';
@@ -38,4 +38,3 @@ class App extends React.Component {
 }
 
 export default App;
-```
