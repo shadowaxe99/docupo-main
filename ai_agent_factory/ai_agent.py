@@ -1,9 +1,9 @@
 class AIAgent:
     def __init__(self):
-        self.name = 'Task Master'
+        self.skills = []
 
-    def assign_task(self, task):
-        print(f'Assigning task: {task}')
+    def add_skill(self, skill):
+        self.skills.append(skill)
 
-    def control_factory(self):
-        print('Controlling the AI Agent Factory')
+    def get_skills(self):
+        return self.skills
