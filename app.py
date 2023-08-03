@@ -45,4 +45,4 @@ def reviewRepoStructure():
         return jsonify({'message': 'Invalid repository structure'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
